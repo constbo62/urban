@@ -3,6 +3,8 @@ print(my_dict)
 print(my_dict['Kosta'])
 my_dict['Luda'] = 1973
 print(my_dict)
+print(my_dict.get('Nata'))
+print(my_dict.get('Serg'))
 my_dict.update({'Zoya':1949,
                 'lada':1993})
 print(my_dict)
